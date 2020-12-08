@@ -39,7 +39,7 @@ class Utility
     }
 }
 
-class AnohterUtility
+final class AnohterUtility
 {
     use Singleton;
 
