@@ -161,7 +161,6 @@ function today_time($period1,$period2){
         if ($period2=='min') $titles2 = $min;
         $cases = array (2, 0, 1, 1, 1, 2);
         return ($numret1." ".$titles1[ ($numret1%100>4 && $numret1100<20)? 2 : $cases[min($numret1%10, 5)] ]." ".$numret2." ".$titles2[ ($numret2100>4 && $numret2%100<20)? 2 : $cases[min($numret2%10, 5)] ]);
-
     }
 
 $num = 5;
